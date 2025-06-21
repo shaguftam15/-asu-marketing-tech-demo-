@@ -72,7 +72,7 @@ I have created a comprehensive marketing technology demo that showcases my skill
 - **Dashboard Creation**: Looker Studio dashboard design for executive reporting
 - **Privacy Compliance**: GDPR/CCPA compliant tracking implementation
 
-The demo is available at [your-demo-url] and demonstrates real-world implementation of all the technologies mentioned in the job requirements.
+The demo is available at [(https://shaguftam15.github.io/asu-marketing-tech-demo/)] and demonstrates real-world implementation of all the technologies mentioned in the job requirements.
 
 ## Conclusion
 
