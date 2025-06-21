@@ -1,0 +1,599 @@
+{
+  "users": [
+    {
+      "user_id": "user_001",
+      "email": "john.doe@example.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "phone": "+1-555-123-4567",
+      "company": "TechCorp",
+      "experience_level": "3-5",
+      "interest_area": "marketing",
+      "newsletter_opt_in": true,
+      "lead_source": "asu_mba_landing_page",
+      "lead_score": 85,
+      "first_visit_date": "2024-01-15T10:00:00Z",
+      "last_visit_date": "2024-01-15T10:15:00Z",
+      "total_page_views": 5,
+      "total_sessions": 1,
+      "created_at": "2024-01-15T10:15:00Z",
+      "updated_at": "2024-01-15T10:15:00Z"
+    },
+    {
+      "user_id": "user_002",
+      "email": "sarah.johnson@example.com",
+      "first_name": "Sarah",
+      "last_name": "Johnson",
+      "phone": "+1-555-234-5678",
+      "company": "MarketingPro",
+      "experience_level": "6-10",
+      "interest_area": "finance",
+      "newsletter_opt_in": false,
+      "lead_source": "asu_mba_landing_page",
+      "lead_score": 92,
+      "first_visit_date": "2024-01-16T14:30:00Z",
+      "last_visit_date": "2024-01-16T15:45:00Z",
+      "total_page_views": 8,
+      "total_sessions": 2,
+      "created_at": "2024-01-16T15:45:00Z",
+      "updated_at": "2024-01-16T15:45:00Z"
+    },
+    {
+      "user_id": "user_003",
+      "email": "michael.chen@example.com",
+      "first_name": "Michael",
+      "last_name": "Chen",
+      "phone": "+1-555-345-6789",
+      "company": "Global Logistics",
+      "experience_level": "10+",
+      "interest_area": "supply",
+      "newsletter_opt_in": true,
+      "lead_source": "asu_mba_landing_page",
+      "lead_score": 78,
+      "first_visit_date": "2024-01-17T09:15:00Z",
+      "last_visit_date": "2024-01-17T10:30:00Z",
+      "total_page_views": 12,
+      "total_sessions": 1,
+      "created_at": "2024-01-17T10:30:00Z",
+      "updated_at": "2024-01-17T10:30:00Z"
+    },
+    {
+      "user_id": "user_004",
+      "email": "emily.rodriguez@example.com",
+      "first_name": "Emily",
+      "last_name": "Rodriguez",
+      "experience_level": "0-2",
+      "interest_area": "marketing",
+      "newsletter_opt_in": true,
+      "lead_source": "asu_mba_landing_page",
+      "lead_score": 65,
+      "first_visit_date": "2024-01-18T16:20:00Z",
+      "last_visit_date": "2024-01-18T16:20:00Z",
+      "total_page_views": 3,
+      "total_sessions": 1,
+      "created_at": "2024-01-18T16:20:00Z",
+      "updated_at": "2024-01-18T16:20:00Z"
+    },
+    {
+      "user_id": "user_005",
+      "email": "david.wilson@example.com",
+      "first_name": "David",
+      "last_name": "Wilson",
+      "phone": "+1-555-567-8901",
+      "company": "StartupXYZ",
+      "experience_level": "3-5",
+      "interest_area": "general",
+      "newsletter_opt_in": false,
+      "lead_source": "asu_mba_landing_page",
+      "lead_score": 88,
+      "first_visit_date": "2024-01-19T11:45:00Z",
+      "last_visit_date": "2024-01-19T12:15:00Z",
+      "total_page_views": 6,
+      "total_sessions": 1,
+      "created_at": "2024-01-19T12:15:00Z",
+      "updated_at": "2024-01-19T12:15:00Z"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "evt_001",
+      "user_id": "user_001",
+      "anonymous_id": "anon_001",
+      "event_name": "page_view",
+      "event_properties": {
+        "page_title": "ASU MBA Landing Page",
+        "page_url": "https://asu.edu/mba-demo",
+        "page_section": "hero"
+      },
+      "user_properties": {
+        "first_visit": "2024-01-15T10:00:00Z"
+      },
+      "timestamp": "2024-01-15T10:00:00Z",
+      "session_id": "sess_001",
+      "page_url": "https://asu.edu/mba-demo",
+      "referrer": "https://google.com",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "campaign_source": "google",
+      "campaign_medium": "cpc",
+      "campaign_name": "asu_mba_2024",
+      "utm_source": "google",
+      "utm_medium": "cpc",
+      "utm_campaign": "asu_mba_2024",
+      "utm_term": "online mba programs",
+      "utm_content": "hero_banner"
+    },
+    {
+      "event_id": "evt_002",
+      "user_id": "user_001",
+      "anonymous_id": "anon_001",
+      "event_name": "cta_click",
+      "event_properties": {
+        "button_type": "primary",
+        "button_position": "top",
+        "page_section": "hero",
+        "button_text": "Request Information"
+      },
+      "user_properties": {
+        "first_visit": "2024-01-15T10:00:00Z"
+      },
+      "timestamp": "2024-01-15T10:05:00Z",
+      "session_id": "sess_001",
+      "page_url": "https://asu.edu/mba-demo",
+      "referrer": "https://google.com",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "campaign_source": "google",
+      "campaign_medium": "cpc",
+      "campaign_name": "asu_mba_2024",
+      "utm_source": "google",
+      "utm_medium": "cpc",
+      "utm_campaign": "asu_mba_2024",
+      "utm_term": "online mba programs",
+      "utm_content": "hero_banner"
+    },
+    {
+      "event_id": "evt_003",
+      "user_id": "user_001",
+      "anonymous_id": "anon_001",
+      "event_name": "scroll_depth",
+      "event_properties": {
+        "scroll_percentage": 50,
+        "page_url": "https://asu.edu/mba-demo"
+      },
+      "user_properties": {
+        "first_visit": "2024-01-15T10:00:00Z"
+      },
+      "timestamp": "2024-01-15T10:08:00Z",
+      "session_id": "sess_001",
+      "page_url": "https://asu.edu/mba-demo",
+      "referrer": "https://google.com",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "campaign_source": "google",
+      "campaign_medium": "cpc",
+      "campaign_name": "asu_mba_2024",
+      "utm_source": "google",
+      "utm_medium": "cpc",
+      "utm_campaign": "asu_mba_2024",
+      "utm_term": "online mba programs",
+      "utm_content": "hero_banner"
+    },
+    {
+      "event_id": "evt_004",
+      "user_id": "user_001",
+      "anonymous_id": "anon_001",
+      "event_name": "form_submission",
+      "event_properties": {
+        "form_id": "contact_form",
+        "form_fields": 7,
+        "has_email": true,
+        "has_phone": true,
+        "interest_area": "marketing",
+        "experience_level": "3-5",
+        "newsletter_opt_in": true,
+        "company": "TechCorp"
+      },
+      "user_properties": {
+        "email": "john.doe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone": "+1-555-123-4567",
+        "company": "TechCorp",
+        "experience_level": "3-5",
+        "interest_area": "marketing",
+        "newsletter_opt_in": true
+      },
+      "timestamp": "2024-01-15T10:15:00Z",
+      "session_id": "sess_001",
+      "page_url": "https://asu.edu/mba-demo",
+      "referrer": "https://google.com",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "campaign_source": "google",
+      "campaign_medium": "cpc",
+      "campaign_name": "asu_mba_2024",
+      "utm_source": "google",
+      "utm_medium": "cpc",
+      "utm_campaign": "asu_mba_2024",
+      "utm_term": "online mba programs",
+      "utm_content": "hero_banner"
+    },
+    {
+      "event_id": "evt_005",
+      "user_id": "user_002",
+      "anonymous_id": "anon_002",
+      "event_name": "page_view",
+      "event_properties": {
+        "page_title": "ASU MBA Landing Page",
+        "page_url": "https://asu.edu/mba-demo",
+        "page_section": "hero"
+      },
+      "user_properties": {
+        "first_visit": "2024-01-16T14:30:00Z"
+      },
+      "timestamp": "2024-01-16T14:30:00Z",
+      "session_id": "sess_002",
+      "page_url": "https://asu.edu/mba-demo",
+      "referrer": "https://facebook.com",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+      "campaign_source": "facebook",
+      "campaign_medium": "social",
+      "campaign_name": "asu_mba_2024",
+      "utm_source": "facebook",
+      "utm_medium": "social",
+      "utm_campaign": "asu_mba_2024",
+      "utm_term": "mba degree",
+      "utm_content": "video_ad"
+    },
+    {
+      "event_id": "evt_006",
+      "user_id": "user_002",
+      "anonymous_id": "anon_002",
+      "event_name": "program_card_hover",
+      "event_properties": {
+        "program_name": "Financial Management",
+        "card_position": "middle"
+      },
+      "user_properties": {
+        "first_visit": "2024-01-16T14:30:00Z"
+      },
+      "timestamp": "2024-01-16T14:45:00Z",
+      "session_id": "sess_002",
+      "page_url": "https://asu.edu/mba-demo",
+      "referrer": "https://facebook.com",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+      "campaign_source": "facebook",
+      "campaign_medium": "social",
+      "campaign_name": "asu_mba_2024",
+      "utm_source": "facebook",
+      "utm_medium": "social",
+      "utm_campaign": "asu_mba_2024",
+      "utm_term": "mba degree",
+      "utm_content": "video_ad"
+    },
+    {
+      "event_id": "evt_007",
+      "user_id": "user_002",
+      "anonymous_id": "anon_002",
+      "event_name": "form_submission",
+      "event_properties": {
+        "form_id": "contact_form",
+        "form_fields": 7,
+        "has_email": true,
+        "has_phone": true,
+        "interest_area": "finance",
+        "experience_level": "6-10",
+        "newsletter_opt_in": false,
+        "company": "MarketingPro"
+      },
+      "user_properties": {
+        "email": "sarah.johnson@example.com",
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "phone": "+1-555-234-5678",
+        "company": "MarketingPro",
+        "experience_level": "6-10",
+        "interest_area": "finance",
+        "newsletter_opt_in": false
+      },
+      "timestamp": "2024-01-16T15:45:00Z",
+      "session_id": "sess_002",
+      "page_url": "https://asu.edu/mba-demo",
+      "referrer": "https://facebook.com",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+      "campaign_source": "facebook",
+      "campaign_medium": "social",
+      "campaign_name": "asu_mba_2024",
+      "utm_source": "facebook",
+      "utm_medium": "social",
+      "utm_campaign": "asu_mba_2024",
+      "utm_term": "mba degree",
+      "utm_content": "video_ad"
+    },
+    {
+      "event_id": "evt_008",
+      "user_id": "user_003",
+      "anonymous_id": "anon_003",
+      "event_name": "page_view",
+      "event_properties": {
+        "page_title": "ASU MBA Landing Page",
+        "page_url": "https://asu.edu/mba-demo",
+        "page_section": "hero"
+      },
+      "user_properties": {
+        "first_visit": "2024-01-17T09:15:00Z"
+      },
+      "timestamp": "2024-01-17T09:15:00Z",
+      "session_id": "sess_003",
+      "page_url": "https://asu.edu/mba-demo",
+      "referrer": "https://linkedin.com",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "campaign_source": "linkedin",
+      "campaign_medium": "social",
+      "campaign_name": "asu_mba_2024",
+      "utm_source": "linkedin",
+      "utm_medium": "social",
+      "utm_campaign": "asu_mba_2024",
+      "utm_term": "online mba",
+      "utm_content": "sponsored_post"
+    },
+    {
+      "event_id": "evt_009",
+      "user_id": "user_003",
+      "anonymous_id": "anon_003",
+      "event_name": "video_modal_open",
+      "event_properties": {
+        "video_title": "ASU MBA Program Overview",
+        "video_duration": 120
+      },
+      "user_properties": {
+        "first_visit": "2024-01-17T09:15:00Z"
+      },
+      "timestamp": "2024-01-17T09:25:00Z",
+      "session_id": "sess_003",
+      "page_url": "https://asu.edu/mba-demo",
+      "referrer": "https://linkedin.com",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "campaign_source": "linkedin",
+      "campaign_medium": "social",
+      "campaign_name": "asu_mba_2024",
+      "utm_source": "linkedin",
+      "utm_medium": "social",
+      "utm_campaign": "asu_mba_2024",
+      "utm_term": "online mba",
+      "utm_content": "sponsored_post"
+    },
+    {
+      "event_id": "evt_010",
+      "user_id": "user_003",
+      "anonymous_id": "anon_003",
+      "event_name": "form_submission",
+      "event_properties": {
+        "form_id": "contact_form",
+        "form_fields": 7,
+        "has_email": true,
+        "has_phone": true,
+        "interest_area": "supply",
+        "experience_level": "10+",
+        "newsletter_opt_in": true,
+        "company": "Global Logistics"
+      },
+      "user_properties": {
+        "email": "michael.chen@example.com",
+        "first_name": "Michael",
+        "last_name": "Chen",
+        "phone": "+1-555-345-6789",
+        "company": "Global Logistics",
+        "experience_level": "10+",
+        "interest_area": "supply",
+        "newsletter_opt_in": true
+      },
+      "timestamp": "2024-01-17T10:30:00Z",
+      "session_id": "sess_003",
+      "page_url": "https://asu.edu/mba-demo",
+      "referrer": "https://linkedin.com",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "campaign_source": "linkedin",
+      "campaign_medium": "social",
+      "campaign_name": "asu_mba_2024",
+      "utm_source": "linkedin",
+      "utm_medium": "social",
+      "utm_campaign": "asu_mba_2024",
+      "utm_term": "online mba",
+      "utm_content": "sponsored_post"
+    }
+  ],
+  "campaigns": [
+    {
+      "campaign_id": "camp_001",
+      "campaign_name": "ASU MBA 2024",
+      "campaign_source": "google",
+      "campaign_medium": "cpc",
+      "campaign_type": "paid_search",
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
+      "budget": 50000.00,
+      "status": "active",
+      "target_audience": "working_professionals",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "campaign_id": "camp_002",
+      "campaign_name": "ASU MBA 2024",
+      "campaign_source": "facebook",
+      "campaign_medium": "social",
+      "campaign_type": "social_media",
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
+      "budget": 30000.00,
+      "status": "active",
+      "target_audience": "working_professionals",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "campaign_id": "camp_003",
+      "campaign_name": "ASU MBA 2024",
+      "campaign_source": "linkedin",
+      "campaign_medium": "social",
+      "campaign_type": "social_media",
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
+      "budget": 25000.00,
+      "status": "active",
+      "target_audience": "working_professionals",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "campaign_id": "camp_004",
+      "campaign_name": "ASU MBA 2024",
+      "campaign_source": "email",
+      "campaign_medium": "email",
+      "campaign_type": "email_marketing",
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
+      "budget": 15000.00,
+      "status": "active",
+      "target_audience": "existing_leads",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "conversions": [
+    {
+      "conversion_id": "conv_001",
+      "user_id": "user_001",
+      "event_id": "evt_004",
+      "conversion_type": "form_submission",
+      "conversion_value": 5000.00,
+      "conversion_date": "2024-01-15T10:15:00Z",
+      "attribution_model": "last_touch",
+      "touchpoints": [
+        {
+          "campaign_source": "google",
+          "campaign_medium": "cpc",
+          "campaign_name": "asu_mba_2024",
+          "touch_type": "page_view",
+          "touch_date": "2024-01-15T10:00:00Z"
+        },
+        {
+          "campaign_source": "google",
+          "campaign_medium": "cpc",
+          "campaign_name": "asu_mba_2024",
+          "touch_type": "cta_click",
+          "touch_date": "2024-01-15T10:05:00Z"
+        },
+        {
+          "campaign_source": "google",
+          "campaign_medium": "cpc",
+          "campaign_name": "asu_mba_2024",
+          "touch_type": "form_submission",
+          "touch_date": "2024-01-15T10:15:00Z"
+        }
+      ],
+      "created_at": "2024-01-15T10:15:00Z"
+    },
+    {
+      "conversion_id": "conv_002",
+      "user_id": "user_002",
+      "event_id": "evt_007",
+      "conversion_type": "form_submission",
+      "conversion_value": 5000.00,
+      "conversion_date": "2024-01-16T15:45:00Z",
+      "attribution_model": "last_touch",
+      "touchpoints": [
+        {
+          "campaign_source": "facebook",
+          "campaign_medium": "social",
+          "campaign_name": "asu_mba_2024",
+          "touch_type": "page_view",
+          "touch_date": "2024-01-16T14:30:00Z"
+        },
+        {
+          "campaign_source": "facebook",
+          "campaign_medium": "social",
+          "campaign_name": "asu_mba_2024",
+          "touch_type": "program_card_hover",
+          "touch_date": "2024-01-16T14:45:00Z"
+        },
+        {
+          "campaign_source": "facebook",
+          "campaign_medium": "social",
+          "campaign_name": "asu_mba_2024",
+          "touch_type": "form_submission",
+          "touch_date": "2024-01-16T15:45:00Z"
+        }
+      ],
+      "created_at": "2024-01-16T15:45:00Z"
+    },
+    {
+      "conversion_id": "conv_003",
+      "user_id": "user_003",
+      "event_id": "evt_010",
+      "conversion_type": "form_submission",
+      "conversion_value": 5000.00,
+      "conversion_date": "2024-01-17T10:30:00Z",
+      "attribution_model": "last_touch",
+      "touchpoints": [
+        {
+          "campaign_source": "linkedin",
+          "campaign_medium": "social",
+          "campaign_name": "asu_mba_2024",
+          "touch_type": "page_view",
+          "touch_date": "2024-01-17T09:15:00Z"
+        },
+        {
+          "campaign_source": "linkedin",
+          "campaign_medium": "social",
+          "campaign_name": "asu_mba_2024",
+          "touch_type": "video_modal_open",
+          "touch_date": "2024-01-17T09:25:00Z"
+        },
+        {
+          "campaign_source": "linkedin",
+          "campaign_medium": "social",
+          "campaign_name": "asu_mba_2024",
+          "touch_type": "form_submission",
+          "touch_date": "2024-01-17T10:30:00Z"
+        }
+      ],
+      "created_at": "2024-01-17T10:30:00Z"
+    }
+  ],
+  "metadata": {
+    "total_users": 5,
+    "total_events": 10,
+    "total_conversions": 3,
+    "conversion_rate": 60.0,
+    "average_lead_score": 81.6,
+    "total_revenue": 15000.00,
+    "date_range": {
+      "start_date": "2024-01-15T10:00:00Z",
+      "end_date": "2024-01-19T12:15:00Z"
+    },
+    "campaigns": {
+      "google_cpc": {
+        "conversions": 1,
+        "revenue": 5000.00,
+        "conversion_rate": 100.0
+      },
+      "facebook_social": {
+        "conversions": 1,
+        "revenue": 5000.00,
+        "conversion_rate": 100.0
+      },
+      "linkedin_social": {
+        "conversions": 1,
+        "revenue": 5000.00,
+        "conversion_rate": 100.0
+      }
+    },
+    "interest_areas": {
+      "marketing": 2,
+      "finance": 1,
+      "supply": 1,
+      "general": 1
+    },
+    "experience_levels": {
+      "0-2": 1,
+      "3-5": 2,
+      "6-10": 1,
+      "10+": 1
+    }
+  }
+} 

@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ASU Online MBA Program - Marketing Technology Demo</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google Tag Manager -->
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window,document,'script','dataLayer','GTM-DEMO123');</script>
+
+    <!-- End Google Tag Manager -->
+
+    <!-- Segment Analytics (Mock CDP) -->
+
+    <script>
+
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.15.3";
+
+        analytics.load("DEMO_SEGMENT_WRITE_KEY");
+
+        analytics.page();
+
+        }}();
+
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-DEMO123"
+
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Cookie Consent Banner -->
+
+    <div id="cookie-banner" class="cookie-banner">
+
+        <div class="cookie-content">
+
+            <p>We use cookies and similar technologies to personalize content, provide social media features, and analyze our traffic. We also share information about your use of our site with our social media, advertising, and analytics partners.</p>
+
+            <div class="cookie-buttons">
+
+                <button id="accept-cookies" class="btn-primary">Accept All</button>
+
+                <button id="decline-cookies" class="btn-secondary">Decline</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <header class="header">
+
+        <nav class="nav">
+
+            <div class="nav-container">
+
+                <div class="logo">
+
+                    <img src="https://www.asu.edu/asuthemes/5.0/assets/img/logo.png" alt="ASU Logo" class="logo-img">
+
+                    <span class="logo-text">ASU Online</span>
+
+                </div>
+
+                <ul class="nav-menu">
+
+                    <li><a href="#programs" class="nav-link" data-tracking="nav_programs">Programs</a></li>
+
+                    <li><a href="#admissions" class="nav-link" data-tracking="nav_admissions">Admissions</a></li>
+
+                    <li><a href="#about" class="nav-link" data-tracking="nav_about">About</a></li>
+
+                    <li><a href="#contact" class="nav-link" data-tracking="nav_contact">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+        <!-- Hero Section -->
+
+        <section id="hero" class="hero">
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <h1 class="hero-title">Advance Your Career with ASU's Online MBA</h1>
+
+                    <p class="hero-subtitle">Join the #1 ranked online MBA program in the nation. Flexible, affordable, and designed for working professionals.</p>
+
+                    <div class="hero-stats">
+
+                        <div class="stat">
+
+                            <span class="stat-number">#1</span>
+
+                            <span class="stat-label">Online MBA</span>
+
+                        </div>
+
+                        <div class="stat">
+
+                            <span class="stat-number">24</span>
+
+                            <span class="stat-label">Months</span>
+
+                        </div>
+
+                        <div class="stat">
+
+                            <span class="stat-number">$60K</span>
+
+                            <span class="stat-label">Avg. Salary Increase</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="hero-cta">
+
+                        <button id="hero-cta" class="btn-primary btn-large" data-tracking="hero_cta">
+
+                            Request Information
+
+                        </button>
+
+                        <button id="video-cta" class="btn-secondary btn-large" data-tracking="video_cta">
+
+                            Watch Program Video
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-image">
+
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Students collaborating" class="hero-img">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Programs Section -->
+
+        <section id="programs" class="section">
+
+            <div class="container">
+
+                <h2 class="section-title">Program Specializations</h2>
+
+                <div class="programs-grid">
+
+                    <div class="program-card" data-tracking="program_marketing">
+
+                        <div class="program-icon">📊</div>
+
+                        <h3>Marketing Analytics</h3>
+
+                        <p>Master data-driven marketing strategies and customer analytics</p>
+
+                        <button class="btn-outline" data-tracking="learn_more_marketing">Learn More</button>
+
+                    </div>
+
+                    <div class="program-card" data-tracking="program_finance">
+
+                        <div class="program-icon">💰</div>
+
+                        <h3>Financial Management</h3>
+
+                        <p>Develop expertise in corporate finance and investment strategies</p>
+
+                        <button class="btn-outline" data-tracking="learn_more_finance">Learn More</button>
+
+                    </div>
+
+                    <div class="program-card" data-tracking="program_supply">
+
+                        <div class="program-icon">🚚</div>
+
+                        <h3>Supply Chain Management</h3>
+
+                        <p>Optimize operations and global supply chain networks</p>
+
+                        <button class="btn-outline" data-tracking="learn_more_supply">Learn More</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Features Section -->
+
+        <section id="features" class="section bg-light">
+
+            <div class="container">
+
+                <h2 class="section-title">Why Choose ASU Online MBA?</h2>
+
+                <div class="features-grid">
+
+                    <div class="feature-item">
+
+                        <div class="feature-icon">🎓</div>
+
+                        <h3>AACSB Accredited</h3>
+
+                        <p>Gold standard in business education accreditation</p>
+
+                    </div>
+
+                    <div class="feature-item">
+
+                        <div class="feature-icon">💻</div>
+
+                        <h3>100% Online</h3>
+
+                        <p>Complete your degree from anywhere in the world</p>
+
+                    </div>
+
+                    <div class="feature-item">
+
+                        <div class="feature-icon">⏰</div>
+
+                        <h3>Flexible Schedule</h3>
+
+                        <p>Study at your own pace with 24/7 course access</p>
+
+                    </div>
+
+                    <div class="feature-item">
+
+                        <div class="feature-icon">👥</div>
+
+                        <h3>Global Network</h3>
+
+                        <p>Connect with professionals from around the world</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Form Section -->
+
+        <section id="form-section" class="section">
+
+            <div class="container">
+
+                <div class="form-container">
+
+                    <div class="form-content">
+
+                        <h2>Get Your Free Program Guide</h2>
+
+                        <p>Download our comprehensive program guide and speak with an enrollment advisor about your career goals.</p>
+
+                        <ul class="form-benefits">
+
+                            <li>✓ Detailed curriculum overview</li>
+
+                            <li>✓ Tuition and financial aid information</li>
+
+                            <li>✓ Application requirements</li>
+
+                            <li>✓ Career outcomes and alumni success stories</li>
+
+                        </ul>
+
+                    </div>
+
+                    <form id="info-form" class="contact-form">
+
+                        <div class="form-group">
+
+                            <label for="first-name">First Name *</label>
+
+                            <input type="text" id="first-name" name="first_name" required>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="last-name">Last Name *</label>
+
+                            <input type="text" id="last-name" name="last_name" required>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="email">Email Address *</label>
+
+                            <input type="email" id="email" name="email" required>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="phone">Phone Number</label>
+
+                            <input type="tel" id="phone" name="phone">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="company">Current Company</label>
+
+                            <input type="text" id="company" name="company">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="experience">Years of Experience</label>
+
+                            <select id="experience" name="experience">
+
+                                <option value="">Select...</option>
+
+                                <option value="0-2">0-2 years</option>
+
+                                <option value="3-5">3-5 years</option>
+
+                                <option value="6-10">6-10 years</option>
+
+                                <option value="10+">10+ years</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="interest">Primary Interest</label>
+
+                            <select id="interest" name="interest">
+
+                                <option value="">Select...</option>
+
+                                <option value="marketing">Marketing Analytics</option>
+
+                                <option value="finance">Financial Management</option>
+
+                                <option value="supply">Supply Chain Management</option>
+
+                                <option value="general">General Management</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="form-group checkbox-group">
+
+                            <label class="checkbox-label">
+
+                                <input type="checkbox" id="newsletter" name="newsletter">
+
+                                <span class="checkmark"></span>
+
+                                I'd like to receive program updates and news
+
+                            </label>
+
+                        </div>
+
+                        <button type="submit" class="btn-primary btn-full" data-tracking="form_submit">
+
+                            Download Program Guide
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Testimonials Section -->
+
+        <section id="testimonials" class="section bg-light">
+
+            <div class="container">
+
+                <h2 class="section-title">What Our Graduates Say</h2>
+
+                <div class="testimonials-grid">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-content">
+
+                            <p>"The ASU Online MBA program transformed my career. I went from a marketing coordinator to a senior marketing manager within 18 months of graduation."</p>
+
+                        </div>
+
+                        <div class="testimonial-author">
+
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80" alt="Sarah Johnson" class="author-img">
+
+                            <div class="author-info">
+
+                                <h4>Sarah Johnson</h4>
+
+                                <p>Senior Marketing Manager, TechCorp</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-content">
+
+                            <p>"The flexibility of the online format allowed me to balance work, family, and education. The quality of instruction was exceptional."</p>
+
+                        </div>
+
+                        <div class="testimonial-author">
+
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80" alt="Michael Chen" class="author-img">
+
+                            <div class="author-info">
+
+                                <h4>Michael Chen</h4>
+
+                                <p>Operations Director, Global Logistics</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div class="footer-section">
+
+                    <h3>Arizona State University</h3>
+
+                    <p>Advancing excellence in education, research, and innovation.</p>
+
+                </div>
+
+                <div class="footer-section">
+
+                    <h4>Contact</h4>
+
+                    <p>Email: online@asu.edu</p>
+
+                    <p>Phone: (800) 232-4636</p>
+
+                </div>
+
+                <div class="footer-section">
+
+                    <h4>Follow Us</h4>
+
+                    <div class="social-links">
+
+                        <a href="#" class="social-link" data-tracking="social_linkedin">LinkedIn</a>
+
+                        <a href="#" class="social-link" data-tracking="social_twitter">Twitter</a>
+
+                        <a href="#" class="social-link" data-tracking="social_facebook">Facebook</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>&copy; 2024 Arizona State University. All rights reserved.</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- Video Modal -->
+
+    <div id="video-modal" class="modal">
+
+        <div class="modal-content">
+
+            <span class="close">&times;</span>
+
+            <h2>ASU Online MBA Program Overview</h2>
+
+            <div class="video-container">
+
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
