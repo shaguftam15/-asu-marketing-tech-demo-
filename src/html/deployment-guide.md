@@ -108,4 +108,6 @@ Your demo demonstrates:
 - ✅ **Deployment**: Production-ready implementation
 - ✅ **Privacy**: Compliance with data protection regulations
 
-This comprehensive demo positions you as a strong candidate who can immediately contribute to EdPlus's marketing technology needs. 
+This comprehensive demo positions you as a strong candidate who can immediately contribute to EdPlus's marketing technology needs.
+
+<!-- Trigger rebuild --> 
