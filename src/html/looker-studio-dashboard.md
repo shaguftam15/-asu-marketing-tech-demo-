@@ -355,4 +355,51 @@ def update_dashboard_data():
 - **Data Freshness**: Target < 15 minutes
 - **Uptime**: Target 99.9% availability
 
-This comprehensive Looker Studio dashboard demonstrates advanced marketing analytics capabilities, multi-touch attribution modeling, and real-time performance monitoring suitable for a university marketing technology environment. 
+This comprehensive Looker Studio dashboard demonstrates advanced marketing analytics capabilities, multi-touch attribution modeling, and real-time performance monitoring suitable for a university marketing technology environment.
+
+## 2. Dashboard Visual Layout (Wireframe)
+
+This diagram represents the visual layout and structure of the dashboard.
+
+```mermaid
+graph TD
+    subgraph "Looker Studio Dashboard: Marketing Performance Overview"
+        direction TB
+
+        subgraph "A[Header & Filters]"
+            A1["Dashboard Title: Campaign Performance"]
+            A2["Date Range Selector"]
+            A3["Campaign Filter Dropdown"]
+        end
+
+        subgraph "B[Key Performance Indicators (KPIs)]"
+            direction LR
+            B1["Total Spend<br/>$150,000"]
+            B2["Total Conversions<br/>1,200"]
+            B3["Cost Per Acquisition (CPA)<br/>$125"]
+            B4["Return on Investment (ROI)<br/>250%"]
+        end
+
+        subgraph "C[Main Dashboard Area]"
+            direction LR
+            subgraph "C1[Primary Visualizations]"
+                C1_1["Campaign Performance Over Time<br/>(Line Chart)"]
+                C1_2["Lead Conversion Funnel<br/>(Funnel Chart)<br/>Views → Clicks → Leads → Conversions"]
+                C1_3["Multi-Touch Attribution<br/>Model Comparison (Bar Chart)"]
+            end
+
+            subgraph "C2[Secondary Insights]"
+                C2_1["Top Performing Channels<br/>(Pie Chart)"]
+                C2_2["User Demographics by Location<br/>(Geo Map)"]
+            end
+        end
+
+        subgraph "D[Detailed Data Table]"
+            D1["Campaign Breakdown Table<br/>(Sortable columns: Campaign, Spend, Conversions, CPA, ROI)"]
+        end
+    end
+
+    A --> B
+    B --> C
+    C --> D
+``` 
