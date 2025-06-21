@@ -1,13 +1,5 @@
 # Cover Letter Template for ASU Manager, Marketing Technology Position
 
-## [Your Name]
-[Your Address]  
-[City, State ZIP]  
-[Your Email]  
-[Your Phone]  
-
-## [Date]
-
 **Hiring Manager**  
 EdPlus at Arizona State University  
 Scottsdale, Arizona
@@ -22,7 +14,6 @@ I am writing to express my strong interest in the Manager, Marketing Technology 
 
 **Yes, I have extensive experience with tag management solutions, specifically Google Tag Manager and Tealium iQ.**
 
-In my current role, I have implemented and managed Google Tag Manager containers for multiple enterprise-level websites, including:
 - **Google Tag Manager**: Configured containers with 7+ custom triggers, 15+ variables, and comprehensive data layer implementation
 - **Server-side Tag Management**: Experience with GTM server-side containers for enhanced privacy and performance
 - **Advanced Implementation**: Custom JavaScript variables, enhanced ecommerce tracking, and cross-domain tracking
@@ -91,7 +82,7 @@ I would welcome the opportunity to discuss how my skills and experience can cont
 
 Sincerely,
 
-[Your Name]
+Shagufta Memon
 
 ---
 
