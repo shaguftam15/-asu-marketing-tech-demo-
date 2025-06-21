@@ -1,4 +1,7 @@
 # ASU Marketing Technology Demo
+
+> **Disclaimer:** This is a non-official, personal project created for portfolio purposes to demonstrate technical skills for the ASU Manager, Marketing Technology job application. It is not affiliated with, endorsed by, or representative of Arizona State University or EdPlus at ASU. All branding elements are used under the principle of fair use for demonstration.
+
 ## Comprehensive Marketing Technology Implementation for EdPlus at ASU
 
 ### Overview
