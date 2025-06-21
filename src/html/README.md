@@ -1,129 +1,38 @@
-# ASU Marketing Technology Demo
+# Online Learning Platform - MarTech Demo
 
-> ⚠️ This project is a personal demo created for educational and job portfolio purposes only. It is not affiliated with or endorsed by Arizona State University.
-
-## Comprehensive Marketing Technology Implementation for EdPlus at ASU
-
-### Overview
-This project demonstrates hands-on experience with GA4, Google Tag Manager, CDPs (Segment), SQL for data warehousing (BigQuery/Snowflake), and marketing analytics dashboards (Looker Studio) - all key requirements for the **ASU Manager, Marketing Technology** position at EdPlus.
-
-### 🎯 Project Goals
-- Showcase comprehensive marketing technology stack implementation
-- Demonstrate data-driven marketing analytics and attribution modeling
-- Provide hands-on examples of real-world marketing technology solutions
-- Create a deployable demo suitable for portfolio presentation
-- **Specifically address EdPlus digital teaching and learning initiatives**
-
-### 🎓 ASU Job Requirements Alignment
-
-### ✅ **Essential Duties Demonstrated:**
-
-1. **Google Analytics 4 & Google Tag Manager Implementation**
-   - Complete GA4 configuration with enhanced ecommerce tracking
-   - GTM container setup with 7+ custom triggers and 15+ variables
-   - Server-side tag management considerations documented
-
-2. **Marketing Technology Systems Integration**
-   - Segment CDP implementation with data flow documentation
-   - Multi-tool integration (GA4, Facebook, LinkedIn, Hotjar)
-   - Data layer standards and consent management
-
-3. **Advertising Technology Solutions**
-   - Facebook Pixel and LinkedIn Insight Tag implementation
-   - Conversion tracking and attribution modeling
-   - Cross-platform campaign measurement
-
-4. **Customer Data Platform Management**
-   - Segment CDP setup with user identification
-   - Data unification and attribution processes
-   - Privacy-compliant data collection
-
-5. **Data Ingestion & Attribution**
-   - BigQuery/Snowflake data warehouse queries
-   - Multi-touch attribution models (4 different approaches)
-   - Real-time and batch data processing
-
-6. **1st-Party Data Collection**
-   - Cookie consent management (GDPR/CCPA compliant)
-   - Data layer standards implementation
-   - User consent preference handling
-
-### ✅ **Desired Qualifications Met:**
-
-- **Bachelor's degree level work**: Comprehensive technical documentation
-- **Tag Management**: Google Tag Manager with server-side considerations
-- **Web Analytics**: GA4 implementation with advanced tracking
-- **CDP Experience**: Segment implementation with data flow
-- **SQL Proficiency**: 19+ analytical queries for BigQuery/Snowflake
-- **JavaScript**: Advanced tracking and consent management
-- **Data Warehouse**: BigQuery integration with sample datasets
-- **Collaboration**: Detailed documentation for stakeholder communication
-- **Presentation Skills**: Executive dashboard and reporting examples
-
-### 🎯 **EdPlus-Specific Enhancements:**
-- **Digital Learning Focus**: Landing page designed for educational technology
-- **Student Success Metrics**: Analytics queries for enrollment and engagement
-- **Barrier Reduction**: Accessibility and mobile-first design
-- **Scalable Delivery**: Cloud-based deployment options
-- **Community Impact**: Analytics for local, national, and international reach
+> ⚠️ This project is a personal demo created for educational and job portfolio purposes only. It is not affiliated with or endorsed by any university.
 
 ---
 
-## 📁 Project Structure
+## 🚀 Live Demo & Project Hub
 
-```
-asu-marketing-tech-demo/
-├── src/
-│   └── html/
-│       ├── index.html              # Enhanced landing page with GTM & CDP
-│       ├── style.css               # Modern, responsive design
-│       └── script.js               # Comprehensive analytics & tracking
-├── documentation/
-│   ├── gtm-configuration.md        # Complete GTM setup guide
-│   ├── cdp-data-flow.md           # Segment CDP implementation
-│   ├── analytics-queries.sql      # BigQuery/Snowflake SQL queries
-│   └── dashboard-documentation.md # Looker Studio dashboard guide
-├── data/
-│   └── sample-data.json           # Sample datasets for testing
-└── README.md                      # This file
-```
+*   **Live Website:** **[Click here to view the functional landing page](https://shaguftam15.github.io/asu-marketing-tech-demo/)**
+*   **Project Goal:** To build and document a complete, end-to-end marketing technology stack, from user interaction to data warehouse analysis.
 
 ---
 
-## 🚀 Quick Start
+## 📂 Project Architecture & Documentation
 
-### 1. Local Development
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/asu-marketing-tech-demo.git
-cd asu-marketing-tech-demo/src/html
+The live website is only the front-end. The core of this project is the underlying architecture, data flow, and analytics. Please review the documentation below for proof of work.
 
-# Open in browser (or use local server)
-python -m http.server 8000
-# or
-npx serve .
-```
+*   **[📄 Google Tag Manager (GTM) Configuration](./gtm-configuration.md)**
+    *   *Details the setup of all tags, triggers, and variables used to manage tracking scripts.*
 
-### 2. Deploy to GitHub Pages
-```bash
-# Push to GitHub repository
-git add .
-git commit -m "Initial marketing technology demo"
-git push origin main
+*   **[📊 Customer Data Platform (CDP) Data Flow](./cdp-data-flow.md)**
+    *   *Explains the architecture of how user data is collected, unified in Segment, and distributed to other tools and the data warehouse.*
 
-# Enable GitHub Pages in repository settings
-# Site will be available at: https://yourusername.github.io/asu-marketing-tech-demo/
-```
+*   **[📈 Looker Studio Dashboard Design](./looker-studio-dashboard.md)**
+    *   *Includes a visual wireframe and layout for the final marketing performance dashboard.*
 
-### 3. Deploy to Netlify
-- Connect GitHub repository to Netlify
-- Set build command: `echo "No build required"`
-- Set publish directory: `src/html`
-- Deploy automatically on push
+*   **[💻 SQL Analytics Queries](./analytics-queries.sql)**
+    *   *Contains the SQL queries for BigQuery/Snowflake used to analyze campaign ROI, user funnels, and multi-touch attribution.*
+
+*   **[📝 Sample Datasets](./sample-data.json)**
+    *   *The sample data used to model the analytics queries.*
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Technology Stack Demonstrated
 
 ### Frontend & Tracking
 - **HTML5**: Semantic, accessible landing page

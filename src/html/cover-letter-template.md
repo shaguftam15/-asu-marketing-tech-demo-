@@ -74,14 +74,15 @@ I am particularly drawn to EdPlus's mission of reducing barriers to achievement 
 
 ## Technical Portfolio
 
-I have created a comprehensive marketing technology demo that showcases my skills in:
-- **Complete GTM Implementation**: Container setup, triggers, variables, and testing procedures
-- **CDP Data Flow**: End-to-end customer data platform implementation
-- **SQL Analytics**: 19+ queries covering campaign performance, attribution, and user journey analysis
-- **Dashboard Creation**: Looker Studio dashboard design for executive reporting
-- **Privacy Compliance**: GDPR/CCPA compliant tracking implementation
+I have created a comprehensive marketing technology demo that showcases my skills in GTM, CDP architecture, SQL, and analytics. The project includes a functional landing page and complete documentation for the underlying data architecture.
 
-The demo is available at [your-demo-url] and demonstrates real-world implementation of all the technologies mentioned in the job requirements.
+*   **GitHub Project Hub (Recommended):** [https://github.com/shaguftam15/asu-marketing-tech-demo](https://github.com/shaguftam15/asu-marketing-tech-demo)
+    *   *This repository contains the complete documentation for the GTM setup, CDP data flow, SQL queries, and dashboard designs.*
+
+*   **Live Demo Website:** [https://shaguftam15.github.io/asu-marketing-tech-demo/](https://shaguftam15.github.io/asu-marketing-tech-demo/)
+    *   *A live, functional version of the project's landing page.*
+
+This demo demonstrates real-world implementation of all the technologies mentioned in the job requirements.
 
 ## Conclusion
 
