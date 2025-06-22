@@ -274,28 +274,6 @@ ORDER BY roi_percentage DESC;
 
 ---
 
-## 🚀 Deployment Options
-
-### 1. GitHub Pages (Free)
-- **Setup**: Enable GitHub Pages in repository settings
-- **URL**: `https://yourusername.github.io/asu-marketing-tech-demo/`
-- **Custom Domain**: Optional custom domain configuration
-- **HTTPS**: Automatic SSL certificate
-
-### 2. Netlify (Free Tier)
-- **Setup**: Connect GitHub repository
-- **URL**: `https://your-demo-name.netlify.app/`
-- **Custom Domain**: Free custom domain support
-- **HTTPS**: Automatic SSL certificate
-
-### 3. Vercel (Free Tier)
-- **Setup**: Import GitHub repository
-- **URL**: `https://your-demo-name.vercel.app/`
-- **Custom Domain**: Free custom domain support
-- **HTTPS**: Automatic SSL certificate
-
----
-
 ## 📊 Performance Metrics
 
 ### Technical Performance
